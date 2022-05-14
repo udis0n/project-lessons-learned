@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  color: black;
+  font-family: Helvetica, sans-serif;
+}
+
+h2 , h3 {
+  color: rgb(242, 94, 94);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.red_colortext {
+  color: rgb(242, 94, 94);
+}
+
+#color-2 {
+  color: rgb(242, 94, 94);
+}
+
+/* CABEÇALHO */
+#cabecalho {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(23, 27, 38);
+}
+
+#titulo {
+  margin-left: 120px;
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* CABEÇALHO NAVEGAÇÃO */
+#header_nav {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 551px;
+}
+
+#header_nav ul li {
+  display: inline-block;
+  margin-left: 70px;
+  color: white;
+  text-align: center;
+}
+
+#header_nav ul li:nth-last-of-type( 1 ) {
+  margin-right: 120px;
+}
+
+#header_nav a:hover {
+  color: rgb(242, 94, 94);
+}
+
+/* PRIMEIRA SEÇÃO */
+#principal {
+  height: 680px;
+  text-align: center;
+  background-color: rgb(38, 45, 64);
+}
+
+#container_minha_foto {
+  display: inline-block;
+  margin: 150px auto 0;
+}
+
+#minha_foto {
+  width: 200px;
+  border-radius: 100%;
+}
+
+#meu_nome {
+  top: 0;
+  color: white;
+  line-height: 50px;
+  margin-top: 20px;
+}
+
+#meu_nome h2 {
+  font-size: 50px;
+}
+
+#logo_linkedin {
+  margin: 10px auto;
+  width: 10px;
+}
+
+#logo_linkedin img {
+  width: 25px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* LISTAS SEÇÃO */
+#list_section {
+  padding: 20px;
+  height: 580px;
+  background-color: rgb(23, 27, 38);
+  color: white;
+}
+
+h3 {
+  margin-left: 120px;
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  margin-top: 20px;
+  line-height: 35px;
+  font-size: 20px;
+  color: rgb(242, 94, 94);
+}
+
+#list_section h4 {
+  width: 40%;
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  margin-top: 20px;
+  line-height: 35px;
+  font-size: 20px;
+  color: rgb(242, 94, 94);
+}
+
+#list_1 , #list_2 {
+  display: inline-block;
+  margin-left: 180px;
+}
+
+#list_2 {
+  margin-left: 400px;
+}
+
+/* ARTIGO */
+#aprendizado-section {
+  padding-top: 20px;
+  height: 360px;
+  background-color: rgb(38, 45, 64);
+  color: white;
+}
+
+article {
+  display: inline-block;
+}
+
+.h2-article {
+  width: 40%;
+  margin-top: 40px;
+  font-size: 30px;
+  margin-left: 120px;
+}
+
+article p {
+  margin-left: 120px;
+  width: 500px;
+  margin-top: 40px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.lado-direito {
+  display: inline-block;
+}
+
+.lado-direito p {
+  margin-left: 170px;
+  width: 350px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+/* RODAPÉ */
+#container_footer {
+  background-color: rgb(23, 27, 38);
+  display: inline-block;
+  width: 100%;
+  height: 70px;
+  vertical-align: center;
+}
+
+#rodape {
+  color: white;
+  margin-left: 120px;
+  margin-top: 27px;
+  vertical-align: center;
+}
+
+table {
+  float: right;
+  margin-right: 200px;
+  margin-top: 20px;
+  color: rgb(242, 94, 94);
+
+}
+
+.cut {
+  text-decoration: line-through;
+}
